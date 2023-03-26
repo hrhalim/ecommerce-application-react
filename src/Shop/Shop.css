@@ -1,0 +1,13 @@
+.product-area {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    justify-content: space-between;
+}
+.product-left {
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.product-right {
+    background-color: lightblue;
+    height: 100vh;
+}
