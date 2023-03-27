@@ -1,0 +1,32 @@
+.product-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+.product-left h1 {
+    text-align: center;
+}
+.prodcut-content {
+    padding: 15px;
+}
+.btn-cart {
+    background-color: chocolate;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+}
